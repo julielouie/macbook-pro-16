@@ -11,8 +11,8 @@ function FilmSummary(props) {
         a new Magic Keyboard, and massive storage,
         it’s the ultimate pro notebook for the ultimate user.
       </h2>
-      <h4 className="video">Watch the film <img src="./public_assets/play-button.svg" alt="Play Button" className="play" />
-      </h4>
+      <h5 className="video">Watch the film <img src="./public_assets/play-button.svg" alt="Play Button" className="play" />
+      </h5>
     </div>
   );
 }
