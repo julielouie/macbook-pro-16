@@ -1,0 +1,12 @@
+.hero-img {
+  background-image: url(./assets/sequence-images/large_0000.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.title, .tagline {
+  position: relative;
+  top: 30%;
+}
