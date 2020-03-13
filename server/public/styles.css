@@ -14,6 +14,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
+  width: 85%;
 }
 
 .title, .tagline {
@@ -27,6 +28,7 @@
 }
 
 .tagline {
+  width: 75%;
   font-family: SF-Pro-Display-Bold;
   font-size: 7rem;
 }
