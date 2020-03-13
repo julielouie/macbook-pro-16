@@ -32,3 +32,21 @@
   font-family: SF-Pro-Display-Bold;
   font-size: 7rem;
 }
+
+.summary, .video {
+  position: relative;
+  top: 15%;
+}
+
+.summary {
+  font-size: 2.2rem;
+}
+
+.video {
+  font-weight: bold;
+}
+
+.play {
+  width: 30px;
+  font-weight: bold;
+}
