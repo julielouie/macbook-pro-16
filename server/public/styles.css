@@ -1,3 +1,13 @@
+@font-face {
+  font-family: SF-Pro-Display-Bold;
+  src: url(./assets/fonts/SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+  font-family: SF-Pro-Display-Medium;
+  src: url(./assets/fonts/SF-Pro-Display-Medium.otf);
+}
+
 .hero-img {
   background-image: url(./assets/sequence-images/large_0000.jpg);
   background-size: contain;
@@ -8,5 +18,15 @@
 
 .title, .tagline {
   position: relative;
-  top: 30%;
+  top: 20%;
+}
+
+.title {
+  font-family: SF-Pro-Display-Medium;
+  font-weight: bold;
+}
+
+.tagline {
+  font-family: SF-Pro-Display-Bold;
+  font-size: 7rem;
 }
