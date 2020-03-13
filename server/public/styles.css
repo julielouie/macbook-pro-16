@@ -1,0 +1,34 @@
+@font-face {
+  font-family: SF-Pro-Display-Bold;
+  src: url(./assets/fonts/SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+  font-family: SF-Pro-Display-Medium;
+  src: url(./assets/fonts/SF-Pro-Display-Medium.otf);
+}
+
+.hero-img {
+  background-image: url(./assets/sequence-images/large_0000.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 85%;
+}
+
+.title, .tagline {
+  position: relative;
+  top: 20%;
+}
+
+.title {
+  font-family: SF-Pro-Display-Medium;
+  font-weight: bold;
+}
+
+.tagline {
+  width: 75%;
+  font-family: SF-Pro-Display-Bold;
+  font-size: 7rem;
+}

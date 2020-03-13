@@ -5,8 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --mode=production",
-    "dev": "npm-run-all --silent --parallel dev:*",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm-run-all --silent --parallel dev:*"
   },
   "husky": {
     "hooks": {

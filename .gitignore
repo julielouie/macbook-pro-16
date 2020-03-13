@@ -2,5 +2,5 @@
 .vscode/
 .DS_Store
 node_modules/
-public/assets/
-public/main.js*
+server/public/assets/
+server/public/main.js*
