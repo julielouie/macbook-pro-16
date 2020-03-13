@@ -15,10 +15,8 @@ Cloning challenge to practice recreating Apple's MacBook Pro 16-inch landing pag
 
 Link: Coming Soon!
 
-## Preview
-
-Coming Soon!
-<!-- ![MacBook Pro 16-inch](server/public/images/borker.gif) -->
+## Clone Template
+![MacBook Pro 16-inch](public/public_assets/demo.gif)
 
 ## Development
 
