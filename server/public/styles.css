@@ -8,6 +8,11 @@
   src: url(./assets/fonts/SF-Pro-Display-Medium.otf);
 }
 
+@font-face {
+  font-family: SF-Pro-Display-Regular;
+  src: url(./assets/fonts/SF-Pro-Display-Regular.otf);
+}
+
 .hero-img {
   background-image: url(./assets/sequence-images/large_0000.jpg);
   background-size: contain;
@@ -49,4 +54,23 @@
 
 .play {
   width: 30px;
+}
+
+.specs-img {
+  background-image: url(./assets/hero_stats_endframe__fphtv5z0kgmu_large.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.spec, .spec-details {
+  font-family: SF-Pro-Display-Regular;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.spec {
+  font-family: SF-Pro-Display-Medium;
+  color: black;
 }
