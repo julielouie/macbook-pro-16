@@ -2,7 +2,7 @@ import React from 'react';
 
 function FilmSummary(props) {
   return (
-    <div className="container vh-100">
+    <div className="container film-summary">
       <h2 className="summary text-muted">
         Designed for those who defy limits and change the world,
         the new MacBook Pro is by far the most powerful notebook we’ve ever made.

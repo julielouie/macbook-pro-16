@@ -38,6 +38,10 @@
   font-size: 7rem;
 }
 
+.film-summary {
+  height: 80vh;
+}
+
 .summary, .video {
   padding: 0 7% 0 7%;
   position: relative;
@@ -59,6 +63,7 @@
 .specs-img {
   background-image: url(./assets/hero_stats_endframe__fphtv5z0kgmu_large.jpg);
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;

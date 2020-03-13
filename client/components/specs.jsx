@@ -2,8 +2,8 @@ import React from 'react';
 
 function Specs(props) {
   return (
-    <div className="specs-img col-sm m-auto">
-      <div className="container vh-100">
+    <div className="specs-img col-sm m-auto pt-5">
+      <div className="container vh-100 pt-5">
         <div className="row">
           <div className="left col-sm col-md-4">
             <div className="spec-details text-muted">
@@ -22,7 +22,6 @@ function Specs(props) {
               <span className="spec">AMD Radeon Pro 5000M series graphics</span>
               <br />
             for fast rendering and seamless playback.
-              <hr />
             </div>
           </div>
           <div className="center col-sm col-md-4"></div>
@@ -43,7 +42,6 @@ function Specs(props) {
               <span className="spec">Six-speaker sound system and studio-quality mics</span>
               <br />
             for dramatic sound and superclean recordings.
-              <hr />
             </div>
           </div>
         </div>
