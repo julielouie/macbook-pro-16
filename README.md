@@ -40,7 +40,7 @@ Link: Coming Soon!
     npm install
     ```
 
-3. Add provided `assets` directory to `/public`.
+3. Add provided `assets` directory to `/server/public`.
 
 4. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
 
