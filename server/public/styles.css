@@ -13,6 +13,24 @@
   src: url(./assets/fonts/SF-Pro-Display-Regular.otf);
 }
 
+.header {
+  background: rgba(255, 255, 255, 0.836);
+  height: 75px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.links {
+  cursor: pointer;
+}
+
+.extra-button {
+  padding: 2%;
+  background: #0071e3;
+  border-radius: 12px;
+}
+
 .hero-img {
   background-image: url(./assets/sequence-images/large_0000.jpg);
   background-size: contain;
