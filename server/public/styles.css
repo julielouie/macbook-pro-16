@@ -69,6 +69,14 @@
   width: 100%;
 }
 
+.left {
+  padding-left: 7%;
+}
+
+.right {
+  padding-right: 7%;
+}
+
 .spec, .spec-details {
   font-family: SF-Pro-Display-Regular;
   font-weight: bold;
