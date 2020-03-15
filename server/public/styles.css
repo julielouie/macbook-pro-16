@@ -36,26 +36,27 @@
   border-radius: 12px;
 }
 
-.hero-img {
-  background: center / contain no-repeat url(./assets/sequence-images/large_0000.jpg);
-  height: 100%;
-  width: 85%;
-}
-
 .title, .tagline {
-  position: relative;
-  top: 20%;
-}
-
-.title {
-  font-family: SF-Pro-Display-Medium;
-  font-weight: bold;
+  font-family: SF-Pro-Display-Bold;
 }
 
 .tagline {
-  width: 75%;
-  font-family: SF-Pro-Display-Bold;
   font-size: 7rem;
+}
+
+.hero-text {
+  position: absolute;
+  top: 0;
+  left: 18%;
+  z-index: 1;
+}
+
+.hero-img {
+  position: absolute;
+  background: center / contain no-repeat url(./assets/sequence-images/large_0000.jpg);
+  height: 100%;
+  width: 85%;
+  left: 8%;
 }
 
 .summary {
