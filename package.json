@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --mode=production",
-    "dev": "npm-run-all --silent --parallel dev:*"
+    "dev": "npm-run-all --silent --parallel dev:*",
+    "dev:client": "webpack-dev-server"
   },
   "husky": {
     "hooks": {
