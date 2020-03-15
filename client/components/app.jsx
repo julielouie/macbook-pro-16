@@ -4,6 +4,7 @@ import Hero from './hero';
 import FilmSummary from './film-summary';
 import Specs from './specs';
 import RetinaHeadline from './retina-headline';
+import RetinaSummary from './retina-summary';
 
 class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
         <FilmSummary />
         <Specs />
         <RetinaHeadline />
+        <RetinaSummary />
       </>
     );
   }

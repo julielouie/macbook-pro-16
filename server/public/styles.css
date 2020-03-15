@@ -58,19 +58,15 @@
   font-size: 7rem;
 }
 
-.film-summary {
+.summary {
   height: 80vh;
 }
 
-.summary, .video {
+.summary-description, .video {
   font-family: SF-Pro-Display-Medium;
-  padding: 0 7% 0 7%;
+  font-size: 2.4rem;
   position: relative;
   top: 15%;
-}
-
-.summary {
-  font-size: 2.3rem;
 }
 
 .video {
@@ -177,4 +173,9 @@
   background: center / contain no-repeat url(./assets/display_hero_hw__d73ne9vbdmgm_large.png);
   height: 100vh;
   width: 100%;
+}
+
+.highlight {
+  font-weight: bold;
+  color: black;
 }

@@ -20,11 +20,10 @@ function RetinaHeadline(props) {
           </div>
         </div>
       </div>
-      <div className="col-10 pt-5 m-auto position-relative">
+      <div className="col-md-10 pt-5 m-auto position-relative">
         <div className="retina-img-2"></div>
         <div className="retina-img-case"></div>
       </div>
-
     </div>
   );
 }
