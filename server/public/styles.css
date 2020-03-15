@@ -36,6 +36,10 @@
   border-radius: 12px;
 }
 
+.hero {
+  height: 100vh;
+}
+
 .title, .tagline {
   font-family: SF-Pro-Display-Bold;
 }
@@ -66,8 +70,6 @@
 .summary-description, .video {
   font-family: SF-Pro-Display-Medium;
   font-size: 2.4rem;
-  position: relative;
-  top: 15%;
 }
 
 .video {
@@ -209,23 +211,65 @@
 }
 
 @media (max-width: 415px) {
+  .hero {
+    height: 60vh;
+  }
+
   .tagline {
     font-size: 3rem;
   }
 
   .hero-text {
-    position: absolute;
-    top: 0;
-    left: 18%;
-    z-index: 1;
+    left: 15%;
   }
 
   .hero-img {
+    top: 0;
+    left: 10%;
+  }
+
+  .summary {
+    height: 50vh;
+  }
+
+  .summary-description, .video {
+    font-size: 1.45rem;
+  }
+
+  .video {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .play {
+    width: 20px;
+  }
+
+  .retina, .retina > p {
+    font-family: SF-Pro-Display-Bold;
+    font-size: 3rem;
+  }
+
+  .retina-img-1 {
+    background: top no-repeat url(./assets/display_pro__9ci00tik8gyi_large.jpg);
+    background-size: 1900px 1200px;
+    height: 165vh;
+    margin: auto;
+  }
+
+  .retina-quote {
     position: absolute;
-    background: center / contain no-repeat url(./assets/sequence-images/large_0000.jpg);
-    height: 100%;
-    width: 85%;
-    left: 8%;
+    top: 70px;
+    left: 40px;
+  }
+
+  .retina-quote-initial, .retina-quote-1, .retina-quote-2 {
+    font-family: SF-Pro-Display-Medium;
+    font-size: 2.5rem;
+  }
+
+  .retina-quote-2 {
+    font-size: 1.2rem;
   }
 
 }

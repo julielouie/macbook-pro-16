@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero(props) {
   return (
-    <div className="col-12 col-md-10 m-auto vh-100 position-relative">
+    <div className="hero col-12 col-md-10 m-auto position-relative">
       <div className="hero-text pt-5 m-auto">
         <h2 className="title text-center">MacBook Pro</h2>
         <h1 className="tagline text-center">
