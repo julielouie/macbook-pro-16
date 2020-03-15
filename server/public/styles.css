@@ -115,7 +115,7 @@
 
 .retina, .retina > p {
   font-family: SF-Pro-Display-Bold;
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
 .retina-img-content {
@@ -132,7 +132,35 @@
 
 .retina-quote {
   position: absolute;
-  top: 0;
+  top: 430px;
+  left: 320px;
+  font-family: SF-Pro-Display-Medium;
+  font-size: 2.5rem;
+}
+
+.retina-quote-initial, .retina-quote-1, .retina-quote-2 {
+  font-family: inherit;
+  font-size: 3rem;
+}
+
+.retina-quote-initial::before {
+  content: open-quote;
+  position: absolute;
+  left: -5px;
+}
+
+.retina-quote-initial::after {
+  content: close-quote;
+  position: relative;
+}
+
+.retina-quote-author {
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.retina-quote-2 {
+  font-size: 1.1rem;
 }
 
 .retina-img-2 {
