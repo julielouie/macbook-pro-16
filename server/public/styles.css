@@ -32,10 +32,7 @@
 }
 
 .hero-img {
-  background-image: url(./assets/sequence-images/large_0000.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: center / contain no-repeat url(./assets/sequence-images/large_0000.jpg);
   height: 100%;
   width: 85%;
 }
@@ -79,10 +76,7 @@
 }
 
 .specs-img {
-  background-image: url(./assets/hero_stats_endframe__fphtv5z0kgmu_large.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: center / contain no-repeat url(./assets/hero_stats_endframe__fphtv5z0kgmu_large.jpg);
   height: 100%;
   width: 100%;
 }
@@ -104,4 +98,16 @@
 .spec {
   font-family: SF-Pro-Display-Medium;
   color: black;
+}
+
+.retina-img-1 {
+  background: center / contain no-repeat url(./assets/display_pro__9ci00tik8gyi_large.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+.retina-img-2 {
+  background: center / contain no-repeat url(./assets/display_hero_screen__eik3891ojtoy_large.jpg);
+  height: 100%;
+  width: 100%;
 }
