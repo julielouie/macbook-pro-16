@@ -13,6 +13,12 @@
   src: url(./assets/fonts/SF-Pro-Display-Regular.otf);
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: SF-Pro-Display-Regular;
+}
+
 .header {
   background: rgba(255, 255, 255, 0.836);
   height: 75px;
@@ -100,14 +106,28 @@
   color: black;
 }
 
+.retina-headline {
+  height: 120vh;
+}
+
+.retina, .retina > p {
+  font-family: SF-Pro-Display-Bold;
+  font-size: 5rem;
+}
+
+.retina-img-content {
+  height: 200vh;
+}
+
 .retina-img-1 {
-  background: center / contain no-repeat url(./assets/display_pro__9ci00tik8gyi_large.jpg);
-  height: 100%;
-  width: 100%;
+  background: top no-repeat url(./assets/display_pro__9ci00tik8gyi_large.jpg);
+  background-size: 1900px 1200px;
+  height: 165vh;
+  margin: auto;
 }
 
 .retina-img-2 {
   background: center / contain no-repeat url(./assets/display_hero_screen__eik3891ojtoy_large.jpg);
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
