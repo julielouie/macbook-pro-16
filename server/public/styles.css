@@ -163,7 +163,18 @@
 }
 
 .retina-img-2 {
-  background: center / contain no-repeat url(./assets/display_hero_screen__eik3891ojtoy_large.jpg);
+  position: relative;
+  top: 75px;
+  background: top no-repeat url(./assets/display_hero_screen__eik3891ojtoy_large.jpg);
+  background-size: 1000px 530px;
   height: 100vh;
-  max-width: 100%;
+  width: 100%;
+}
+
+.retina-img-case {
+  position: absolute;
+  top: 75px;
+  background: center / contain no-repeat url(./assets/display_hero_hw__d73ne9vbdmgm_large.png);
+  height: 100vh;
+  width: 100%;
 }
