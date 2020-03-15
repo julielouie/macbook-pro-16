@@ -180,3 +180,56 @@
   font-weight: bold;
   color: black;
 }
+
+
+
+/* media queries */
+@media (min-width: 1360px) {
+
+}
+
+@media (max-width: 1025px) {
+
+}
+
+@media (max-width: 825px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 740px) {
+
+}
+
+@media (max-width: 570px) {
+
+}
+
+@media (max-width: 415px) {
+  .tagline {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 0;
+    left: 18%;
+    z-index: 1;
+  }
+
+  .hero-img {
+    position: absolute;
+    background: center / contain no-repeat url(./assets/sequence-images/large_0000.jpg);
+    height: 100%;
+    width: 85%;
+    left: 8%;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+}
