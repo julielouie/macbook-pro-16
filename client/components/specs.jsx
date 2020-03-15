@@ -8,40 +8,34 @@ function Specs(props) {
           <div className="left col-sm col-md-4">
             <div className="spec-details text-muted">
               <span className="spec">16-inch Retina display</span>
-              <br />
-            for an immersive viewing experience.
+              <span className="break">for an immersive viewing experience.</span>
               <hr />
             </div>
             <div className="spec-details text-muted">
               <span className="spec">Up to 8TB SSD storage</span>
-              <br />
-            — the highest capacity in any notebook.
+              <span className="break">— the highest capacity in any notebook.</span>
               <hr />
             </div>
             <div className="spec-details text-muted">
               <span className="spec">AMD Radeon Pro 5000M series graphics</span>
-              <br />
-            for fast rendering and seamless playback.
+              <span className="break">for fast rendering and seamless playback.</span>
             </div>
           </div>
           <div className="center col-sm col-md-4"></div>
           <div className="right col-sm col-md-4">
             <div className="spec-details text-muted">
               <span className="spec">Up to 8-core processor</span>
-              <br />
-            to power through intensive workloads.
+              <span className="break">to power through intensive workloads.</span>
               <hr />
             </div>
             <div className="spec-details text-muted">
               <span className="spec">Up to 64GB of memory</span>
-              <br />
-            for editing large files and smooth multitasking.
+              <span className="break">for editing large files and smooth multitasking.</span>
               <hr />
             </div>
             <div className="spec-details text-muted">
               <span className="spec">Six-speaker sound system and studio-quality mics</span>
-              <br />
-            for dramatic sound and superclean recordings.
+              <span className="break">for dramatic sound and superclean recordings.</span>
             </div>
           </div>
         </div>
