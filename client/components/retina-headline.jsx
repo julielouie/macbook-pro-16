@@ -11,8 +11,9 @@ function RetinaHeadline(props) {
         </h1>
       </div>
       <div className="ret-img-content col-12 col-md-10 h-100 pt-5 m-auto">
+        <div className="retina-img-1-extend"></div>
         <div className="retina-img-1"></div>
-        <div className="retina-quote col-md-6 .d-none .d-xl-none">
+        <div className="retina-quote col-10 col-md-6">
           <h1 className="retina-quote-initial">Boundaries are meant to be pushed.</h1>
           <div className="retina-quote-2">
             <div className="retina-quote-author">Chris Burkard</div>
