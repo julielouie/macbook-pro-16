@@ -7,6 +7,7 @@ Cloning challenge to practice recreating Apple's MacBook Pro 16-inch landing pag
 - React.js
 - Webpack 4
 - ScrollMagic
+- Bootstrap 4
 - HTML5
 - CSS3
 - AWS EC2
