@@ -5,7 +5,7 @@ function Specs(props) {
     <div className="specs m-auto pt-5">
       <div className="specs-img"></div>
       <div className="col-12 col-md-10 m-auto pt-5 h-100">
-        <div className="spec-columns d-flex">
+        <div className="d-flex flex-row">
           <div className="left px-0 col-12 col-md-4">
             <div className="spec-details text-muted">
               <span className="spec">16-inch Retina display</span>

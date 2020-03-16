@@ -50,7 +50,7 @@
 }
 
 .hero {
-  height: 100vh;
+  height: 90vh;
 }
 
 .title, .tagline {
@@ -61,19 +61,10 @@
   font-size: 7rem;
 }
 
-.hero-text {
-  position: absolute;
-  top: 0;
-  left: 18%;
-  z-index: 1;
-}
-
 .hero-img {
-  position: absolute;
   background: center / contain no-repeat url(./assets/sequence-images/large_0000.jpg);
   height: 100%;
   width: 85%;
-  left: 8%;
 }
 
 .summary {
@@ -106,10 +97,6 @@
   height: 100%;
   width: 100%;
   z-index: -1;
-}
-
-.spec-columns {
-  flex-direction: row;
 }
 
 .spec, .spec-details {
@@ -212,6 +199,85 @@
 
 /* media queries */
 @media (min-width: 1360px) {
+  .hero {
+    height: 80vh;
+  }
+
+  .tagline {
+    font-size: 7rem;
+  }
+
+  .summary {
+    padding-top: 100px;
+    height: 80vh;
+  }
+
+  .summary-description {
+    font-size: 2.4rem;
+  }
+
+  .video {
+    font-size: 1.4rem;
+  }
+
+  .specs {
+    height: 120vh;
+  }
+
+  .specs-img {
+    background-size: 1400px 700px;
+  }
+
+  .spec, .spec-details {
+    font-size: 1.5rem;
+  }
+
+  .retina, .retina > p {
+    font-size: 4.8rem;
+  }
+
+  .retina-img-content {
+    height: 200vh;
+  }
+
+  .retina-img-1-extend {
+    height: 25vh;
+  }
+
+  .retina-img-1 {
+    background-size: 1900px 1200px;
+    height: 165vh;
+  }
+
+  .retina-quote {
+    top: 100px;
+    left: 220px;
+    font-size: 2.5rem;
+  }
+
+  .retina-quote-initial, .retina-quote-1, .retina-quote-2 {
+    font-size: 3rem;
+  }
+
+  .retina-quote-initial::before {
+    left: -5px;
+  }
+
+  .retina-quote-2 {
+    font-size: 1.1rem;
+  }
+
+  .retina-img-case {
+    top: 75px;
+    height: 100vh;
+  }
+
+  .retina-img-2 {
+    top: 188px;
+    left: 0;
+    background-size: 797px 520px;
+    height: 100vh;
+  }
 
 }
 
@@ -245,12 +311,11 @@
   }
 
   .hero-text {
-    left: 12%;
+    left: 0;
   }
 
   .hero-img {
     top: 85px;
-    left: 8%;
     height: 85%;
   }
 
@@ -280,10 +345,6 @@
     position: static;
     background-size: 400px 200px;
     height: 20%;
-  }
-
-  .spec-columns {
-    flex-direction: column;
   }
 
   .spec, .spec-details {
@@ -336,7 +397,6 @@
     background-size: 270px 175px;
     height: 35vh;
   }
-
 }
 
 @media (max-width: 360px) {
