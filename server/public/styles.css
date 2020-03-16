@@ -82,18 +82,21 @@
   width: 30px;
 }
 
+.specs {
+  height: 120vh;
+}
+
 .specs-img {
-  background: center / contain no-repeat url(./assets/hero_stats_endframe__fphtv5z0kgmu_large.jpg);
+  position: absolute;
+  background: center no-repeat url(./assets/hero_stats_endframe__fphtv5z0kgmu_large.jpg);
+  background-size: 1400px 700px;
   height: 100%;
   width: 100%;
+  z-index: -1;
 }
 
-.left {
-  padding-left: 7%;
-}
-
-.right {
-  padding-right: 7%;
+.spec-columns {
+  flex-direction: row;
 }
 
 .spec, .spec-details {
@@ -110,6 +113,10 @@
 .break::before {
   content: "\A";
   white-space: pre;
+}
+
+.spec-ref {
+  display: none;
 }
 
 .retina, .retina > p {
@@ -250,6 +257,28 @@
 
   .play {
     width: 20px;
+  }
+
+  .specs {
+    height: 155vh;
+  }
+
+  .specs-img {
+    position: static;
+    background-size: 400px 200px;
+    height: 20%;
+  }
+
+  .spec-columns {
+    flex-direction: column;
+  }
+
+  .spec, .spec-details {
+    font-size: 1.5rem;
+  }
+
+  .spec-ref {
+    display: block;
   }
 
   .retina, .retina > p {
