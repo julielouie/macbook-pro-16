@@ -36,37 +36,41 @@
   border-radius: 12px;
 }
 
-.hero-img {
-  background: center / contain no-repeat url(./assets/sequence-images/large_0000.jpg);
-  height: 100%;
-  width: 85%;
+.hero {
+  height: 100vh;
 }
 
 .title, .tagline {
-  position: relative;
-  top: 20%;
-}
-
-.title {
-  font-family: SF-Pro-Display-Medium;
-  font-weight: bold;
+  font-family: SF-Pro-Display-Bold;
 }
 
 .tagline {
-  width: 75%;
-  font-family: SF-Pro-Display-Bold;
   font-size: 7rem;
 }
 
+.hero-text {
+  position: absolute;
+  top: 0;
+  left: 18%;
+  z-index: 1;
+}
+
+.hero-img {
+  position: absolute;
+  background: center / contain no-repeat url(./assets/sequence-images/large_0000.jpg);
+  height: 100%;
+  width: 85%;
+  left: 8%;
+}
+
 .summary {
+  padding-top: 60px;
   height: 80vh;
 }
 
 .summary-description, .video {
   font-family: SF-Pro-Display-Medium;
   font-size: 2.4rem;
-  position: relative;
-  top: 15%;
 }
 
 .video {
@@ -116,6 +120,10 @@
 .retina-img-content {
   position: relative;
   height: 200vh;
+}
+
+.retina-img-1-extend {
+  display: none;
 }
 
 .retina-img-1 {
@@ -178,4 +186,124 @@
 .highlight {
   font-weight: bold;
   color: black;
+}
+
+
+
+/* media queries */
+@media (min-width: 1360px) {
+
+}
+
+@media (max-width: 1025px) {
+
+}
+
+@media (max-width: 825px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 740px) {
+
+}
+
+@media (max-width: 570px) {
+
+}
+
+@media (max-width: 415px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .tagline {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    left: 12%;
+  }
+
+  .hero-img {
+    top: 85px;
+    left: 8%;
+    height: 85%;
+  }
+
+  .summary {
+    height: 50vh;
+    padding-top: 0;
+  }
+
+  .summary-description, .video {
+    font-size: 1.45rem;
+  }
+
+  .video {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .play {
+    width: 20px;
+  }
+
+  .retina, .retina > p {
+    font-family: SF-Pro-Display-Bold;
+    font-size: 2.6rem;
+  }
+
+  .retina-img-content {
+    height: 650px;
+    width: 470px;
+  }
+
+  .retina-img-1-extend {
+    display: block;
+    background-color: #F2F2F2;
+    height: 40vh;
+    z-index: -1;
+  }
+
+  .retina-img-1 {
+    background-size: 650px 470px;
+    height: 60vh;
+  }
+
+  .retina-quote {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+  }
+
+  .retina-quote-initial, .retina-quote-1, .retina-quote-2 {
+    font-family: SF-Pro-Display-Medium;
+    font-size: 2.5rem;
+  }
+
+  .retina-quote-2 {
+    font-size: 1.2rem;
+  }
+
+  .retina-img-2 {
+    top: 47px;
+    background-size: 415px 195px;
+    height: 35vh;
+  }
+
+  .retina-img-case {
+    height: 50vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 360px) {
+
 }
