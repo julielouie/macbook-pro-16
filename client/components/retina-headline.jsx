@@ -3,7 +3,7 @@ import React from 'react';
 function RetinaHeadline(props) {
   return (
     <div className="position-relative pt-5">
-      <div className="col-12 col-md-10 py-5 m-auto">
+      <div className="col-12 col-md-10 m-auto">
         <h1 className="retina m-auto">
           <p className="text-muted m-auto">Retina Display</p>
             A big, beautiful workspace.

@@ -64,6 +64,7 @@
 }
 
 .summary {
+  padding-top: 60px;
   height: 80vh;
 }
 
@@ -224,16 +225,18 @@
   }
 
   .hero-text {
-    left: 15%;
+    left: 12%;
   }
 
   .hero-img {
-    top: 0;
-    left: 10%;
+    top: 85px;
+    left: 8%;
+    height: 85%;
   }
 
   .summary {
     height: 50vh;
+    padding-top: 0;
   }
 
   .summary-description, .video {
@@ -251,7 +254,7 @@
 
   .retina, .retina > p {
     font-family: SF-Pro-Display-Bold;
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   .retina-img-content {
@@ -289,7 +292,7 @@
   .retina-img-2 {
     top: 47px;
     background-size: 415px 195px;
-    height: 45vh;
+    height: 35vh;
   }
 
   .retina-img-case {
