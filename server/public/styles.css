@@ -143,7 +143,10 @@
 }
 
 .retina-img-1-extend {
-  display: none;
+  display: block;
+  background-color: #F2F2F2;
+  height: 25vh;
+  z-index: -1;
 }
 
 .retina-img-1 {
@@ -186,19 +189,20 @@
   font-size: 1.1rem;
 }
 
-.retina-img-2 {
+.retina-img-case {
   position: relative;
   top: 75px;
-  background: top no-repeat url(./assets/display_hero_screen__eik3891ojtoy_large.jpg);
-  background-size: 1000px 530px;
+  background: center / contain no-repeat url(./assets/display_hero_hw__d73ne9vbdmgm_large.jpg);
   height: 100vh;
   width: 100%;
 }
 
-.retina-img-case {
+.retina-img-2 {
   position: absolute;
-  top: 75px;
-  background: center / contain no-repeat url(./assets/display_hero_hw__d73ne9vbdmgm_large.png);
+  top: 188px;
+  left: 0;
+  background: top no-repeat url(./assets/display_hero_screen__eik3891ojtoy_large.jpg);
+  background-size: 797px 520px;
   height: 100vh;
   width: 100%;
 }
@@ -305,10 +309,7 @@
   }
 
   .retina-img-1-extend {
-    display: block;
-    background-color: #F2F2F2;
     height: 40vh;
-    z-index: -1;
   }
 
   .retina-img-1 {
@@ -331,17 +332,17 @@
     font-size: 1.2rem;
   }
 
-  .retina-img-2 {
-    top: 47px;
-    background-size: 415px 195px;
-    height: 35vh;
-  }
-
   .retina-img-case {
     height: 50vh;
     top: 0;
     left: 0;
     width: 100%;
+  }
+
+  .retina-img-2 {
+    top: 47px;
+    background-size: 415px 195px;
+    height: 35vh;
   }
 
 }
