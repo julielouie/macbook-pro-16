@@ -20,20 +20,33 @@
 
 .header {
   background: rgba(255, 255, 255, 0.836);
-  height: 75px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.301);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
 
-.links {
+.chevron {
+  background-image: url(./public_assets/chevron.png);
+  height: 20px;
+  width: 22px;
+}
+
+.buy-button {
+  width: 45px;
+  background: #0071e3;
+  border-radius: 20px;
+}
+
+.buy-button:hover {
+  opacity: 0.93;
+}
+
+.link, .buy-button {
   cursor: pointer;
 }
 
-.extra-button {
-  padding: 2%;
-  background: #0071e3;
-  border-radius: 12px;
+.link:hover {
+  color: #0071e3;
 }
 
 .hero {
