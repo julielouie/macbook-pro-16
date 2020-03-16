@@ -2,10 +2,11 @@ import React from 'react';
 
 function Specs(props) {
   return (
-    <div className="specs-img col-sm m-auto pt-5">
-      <div className="container vh-100 pt-5">
-        <div className="row">
-          <div className="left col-sm col-md-4">
+    <div className="specs m-auto pt-5">
+      <div className="specs-img"></div>
+      <div className="col-12 col-md-10 m-auto pt-5 h-100">
+        <div className="spec-columns d-flex">
+          <div className="left col-12 col-md-4">
             <div className="spec-details text-muted">
               <span className="spec">16-inch Retina display</span>
               <span className="break">for an immersive viewing experience.</span>
@@ -19,10 +20,11 @@ function Specs(props) {
             <div className="spec-details text-muted">
               <span className="spec">AMD Radeon Pro 5000M series graphics</span>
               <span className="break">for fast rendering and seamless playback.</span>
+              <hr className="spec-ref" />
             </div>
           </div>
-          <div className="center col-sm col-md-4"></div>
-          <div className="right col-sm col-md-4">
+          <div className="center col-12 col-md-4"></div>
+          <div className="right col-12 col-md-4">
             <div className="spec-details text-muted">
               <span className="spec">Up to 8-core processor</span>
               <span className="break">to power through intensive workloads.</span>
