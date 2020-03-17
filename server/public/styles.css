@@ -239,7 +239,45 @@
 }
 
 @media (max-width: 1025px) {
+  .hero {
+    height: 90vh;
+  }
 
+  .tagline {
+    font-size: 6.8rem;
+  }
+
+  .summary {
+    padding-top: 0;
+    height: 40vh;
+  }
+
+  .summary-description{
+    font-size: 1.9rem;
+  }
+
+  .specs {
+    height: 170vh;
+  }
+
+  .specs-img {
+    position: static;
+    background-size: 930px 425px;
+    height: 45%;
+  }
+
+  .retina-quote {
+    left: 120px;
+  }
+
+  .retina-img-case {
+    height: 70vh;
+  }
+
+ .retina-img-2 {
+    top: 140px;
+    background-size: 505px 330px;
+  }
 }
 
 @media (max-width: 825px) {
