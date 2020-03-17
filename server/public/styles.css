@@ -243,7 +243,7 @@
   }
 }
 
-@media (max-height: 600px) {
+@media (max-width: 1280px) and (max-height: 689px) {
   .hero {
     height: 90vh;
   }
@@ -258,16 +258,34 @@
   }
 
   .specs {
-    height: 130vh;
+    height: 120vh;
   }
 
   .specs-img {
-    background-size: 1375px 610px;
+    height: 100%;
+    background-size: 1300px 610px;
+  }
+
+  .retina-img-1-extend {
+    height: 30vh;
+  }
+
+  .retina-img-case {
+    height: 90vh;
   }
 
   .retina-img-2 {
-    height: 100%;
-    top: 125px;
+    top: 135px;
+    background-size: 640px 415px;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1280px) and (max-height: 599px) {
+  .retina-img-2 {
+    top: 95px;
+    background-size: 640px 415px;
+    height: 100vh;
   }
 }
 
