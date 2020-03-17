@@ -10,7 +10,7 @@ function RetinaHeadline(props) {
           <p>For doing big, beautiful work.</p>
         </h1>
       </div>
-      <div className="ret-img-content col-12 col-md-10 h-100 pt-5 m-auto">
+      <div className="ret-img-content col-12 col-md-10 h-100 pt-5 m-auto position-relative">
         <div className="retina-img-1-extend"></div>
         <div className="retina-img-1"></div>
         <div className="retina-quote col-10 col-md-6">
@@ -22,7 +22,7 @@ function RetinaHeadline(props) {
         </div>
       </div>
       <div className="col-12 col-md-10 pt-5 m-auto position-relative">
-        <div className="retina-img-case"></div>
+        <div className="retina-img-case pt-5"></div>
         <div className="retina-img-2"></div>
       </div>
     </div>
