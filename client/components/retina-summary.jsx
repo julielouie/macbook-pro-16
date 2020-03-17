@@ -2,7 +2,7 @@ import React from 'react';
 
 function RetinaSummary(props) {
   return (
-    <div className="summary col-12 col-md-10 m-auto">
+    <div className="summary col-12 col-md-10 col-lg-8 m-auto">
       <h2 className="summary-description text-muted">
         The new MacBook Pro features a stunning <span className="highlight">16-inch Retina display</span>
         — the largest Retina display ever in a Mac notebook.
