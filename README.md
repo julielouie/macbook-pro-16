@@ -5,16 +5,12 @@ Cloning challenge to practice recreating Apple's MacBook Pro 16-inch landing pag
 ## Technologies Used
 
 - React.js
-- Webpack 4
 - ScrollMagic
 - Bootstrap 4
 - HTML5
 - CSS3
+- Webpack 4
 - AWS EC2
-
-## Live Demo
-
-Link: Coming Soon!
 
 ## Clone Template
 ![MacBook Pro 16-inch](server/public/public_assets/demo.gif)
@@ -24,7 +20,6 @@ Link: Coming Soon!
 #### System Requirements
 
 - NPM 6 or higher
-- MySQL 7 or higher
 
 #### Getting Started
 
