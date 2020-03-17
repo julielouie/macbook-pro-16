@@ -31,8 +31,8 @@ Link: Coming Soon!
 1. Clone the repository.
 
     ```shell
-    git clone https://github.com/juliehchung/borker
-    cd borker
+    git clone https://github.com/juliehchung/macbook-pro-16
+    cd macbook-pro-16
     ```
 
 2. Install all dependencies with NPM.
