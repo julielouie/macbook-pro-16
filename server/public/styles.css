@@ -141,7 +141,7 @@
 .retina-quote {
   position: absolute;
   top: 100px;
-  left: 220px;
+  left: 140px;
   font-family: SF-Pro-Display-Medium;
   font-size: 2.5rem;
 }
@@ -180,10 +180,10 @@
 
 .retina-img-2 {
   position: absolute;
-  top: 110px;
+  top: 170px;
   left: 0;
   background: top no-repeat url(./assets/display_hero_screen__eik3891ojtoy_large.jpg);
-  background-size: 797px 520px;
+  background-size: 640px 415px;
   height: 100vh;
   width: 100%;
 }
@@ -234,7 +234,8 @@
   }
 
   .retina-img-2 {
-    top: 65px;
+    height: 100%;
+    top: 125px;
   }
 }
 
@@ -276,6 +277,7 @@
   }
 
  .retina-img-2 {
+    height: 100%;
     top: 140px;
     background-size: 505px 330px;
   }
@@ -342,7 +344,39 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
 
+  .tagline {
+    font-size: 5.2rem;
+  }
+
+  .summary {
+    padding-top: 0;
+    height: 30vh;
+  }
+
+  .specs {
+    height: 120vh;
+  }
+
+  .retina-quote-initial {
+    font-size: 2.5rem;
+  }
+
+  .retina-img-1-extend {
+    height: 25vh;
+  }
+
+  .retina-img-case {
+    height: 50vh;
+  }
+
+  .retina-img-2 {
+    top: 140px;
+    background-size: 475px 300px;
+  }
 }
 
 @media (max-width: 740px) {
