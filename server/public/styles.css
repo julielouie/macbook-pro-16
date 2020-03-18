@@ -67,6 +67,7 @@
 }
 
 .hero-img {
+  transition: .1s all;
   background: center / contain no-repeat url(./assets/sequence-images/large_0133.jpg);
   height: 100%;
   width: 95%;

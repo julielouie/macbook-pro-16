@@ -10,7 +10,7 @@ function AnimatedText({ progress }, ref) {
       ref={ref}
       className="hero-text position-absolute pt-5 w-100 d-flex flex-column text-center d-none d-md-block"
       style={{
-        transform: `matrix(1, 0, 0, 1, 0, ${matrix})`,
+        transform: `translate3d(0, ${matrix}px, 0)`,
         opacity: opacity
       }}>
       <h2 className="title">MacBook Pro</h2>
