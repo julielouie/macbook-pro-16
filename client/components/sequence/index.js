@@ -1,5 +1,4 @@
 import React, { forwardRef } from 'react';
-import AnimatedText from './animated-text';
 import ImageArray from './image-array';
 
 function ImageSequence({ progress }, ref) {
@@ -10,15 +9,12 @@ function ImageSequence({ progress }, ref) {
     return newImages.map((item, i) => {
       const display = i !== index ? 'none' : 'd-none d-md-block';
       return (
-        <>
-          <AnimatedText ref={ref} progress={progress} />
-          <span className={`hero-img m-auto ${display}`} ref={ref} key={i}
-            style={{
-              backgroundImage: `url('${item[0] ? item[0].src : null}')`,
-              backgroundSize: 'contain',
-              backgroundPosition: 'center'
-            }} />
-        </>
+        <span className={`hero-img m-auto ${display}`} ref={ref} key={i}
+          style={{
+            backgroundImage: `url('${item[0] ? item[0].src : null}')`,
+            backgroundSize: 'contain',
+            backgroundPosition: 'center'
+          }} />
       );
     });
   }
