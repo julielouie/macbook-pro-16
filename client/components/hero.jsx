@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Controller, Scene } from 'react-scrollmagic';
+import AnimatedText from './sequence/animated-text';
 import Sequence from './sequence/index';
 
 function Hero(props) {
@@ -7,16 +8,12 @@ function Hero(props) {
   return (
     <div className="hero col-12 col-md-10 m-auto position-relative">
       <Controller>
-        <Scene>
-          <div className="hero-text position-absolute pt-5 w-100 d-flex flex-column text-center">
-            <h2 className="title">MacBook Pro</h2>
-            <h1 className="tagline">
-              The best for
-              <span className="tagline break">the brightest.</span>
-            </h1>
-          </div>
+        <Scene duration="10%" triggerElement="hero-img" triggerHook="onLeave" pin>
+          {progress => (
+            <AnimatedText ref={ref} progress={progress} />
+          )}
         </Scene>
-        <Scene duration="15%" triggerHook="onLeave" pin>
+        <Scene duration="10%" triggerHook="onEnter" pin>
           {progress => (
             <>
               <Sequence ref={ref} progress={progress} />
