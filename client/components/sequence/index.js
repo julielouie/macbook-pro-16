@@ -2,11 +2,11 @@ import React, { forwardRef } from 'react';
 import ImageArray from './image-array';
 
 function ImageSequence({ progress }, ref) {
-  const newImages = ImageArray();
-  const index = Math.round(progress * 1 * (newImages.length - 1));
+  const images = ImageArray();
+  const index = Math.round(progress * (images.length - 1));
 
-  if (newImages[index][1] !== undefined) {
-    return newImages.map((item, i) => {
+  if (images[index][1] !== undefined) {
+    return images.map((item, i) => {
       const display = i !== index ? 'none' : 'd-none d-md-block';
       return (
         <span className={`hero-img m-auto ${display}`} ref={ref} key={i}

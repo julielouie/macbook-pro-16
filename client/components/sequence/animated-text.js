@@ -1,7 +1,8 @@
 import React, { forwardRef } from 'react';
 
 function AnimatedText({ progress }, ref) {
-  const matrix = progress === 0 ? 0 : 0 - (progress * 320);
+  const expedite = progress * 3;
+  const matrix = progress === 0 ? 0 : 0 - (expedite * 320);
   const opacity = progress === 0 ? 1 : 1 - progress;
 
   return (
