@@ -23,6 +23,7 @@
   border-bottom: 1px solid rgba(128, 128, 128, 0.301);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  z-index: 9999;
 }
 
 .chevron {
@@ -61,10 +62,16 @@
   font-size: 7rem;
 }
 
+.hero-text {
+  z-index: 2;
+}
+
 .hero-img {
-  background: center / contain no-repeat url(./assets/sequence-images/large_0000.jpg);
+  transition: .1s all;
+  background: center / contain no-repeat url(./assets/sequence-images/large_0133.jpg);
   height: 100%;
   width: 95%;
+  z-index: -1;
 }
 
 .summary {
