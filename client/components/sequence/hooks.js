@@ -32,8 +32,5 @@ export const useImage = (url, crossOrigin) => {
     };
   }, [url, crossOrigin]);
 
-  // return array because it it better to use in case of several useImage hooks
-  // const [background, backgroundStatus] = useImage(url1);
-  // const [patter] = useImage(url2);
   return [image, status];
 };
