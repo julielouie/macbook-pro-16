@@ -68,7 +68,7 @@
   background: center / contain no-repeat url(./assets/ac-video-poster_848x480.jpg);
 }
 
-.video-player, video {
+.video-player, .video-modal-player {
   animation: trans-fade 1000ms;
 }
 
