@@ -3,7 +3,14 @@ import React from 'react';
 function Specs(props) {
   return (
     <div className="specs m-auto pt-5">
-      <div className="specs-img"></div>
+      <div className="specs-img">
+        <span>
+          <video width="100%" height="100%" autoPlay>
+            <source src="./assets/media/large.mp4" type="video/mp4" />
+          </video>
+        </span>
+        <div className="specs-img-end"></div>
+      </div>
       <div className="col-12 col-md-10 col-lg-8 m-auto pt-5 h-100">
         <div className="specs-contain d-flex">
           <div className="left px-0 col-12 col-md-4">

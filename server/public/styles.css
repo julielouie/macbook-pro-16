@@ -68,7 +68,7 @@
   background: center / contain no-repeat url(./assets/ac-video-poster_848x480.jpg);
 }
 
-.video-player, video {
+.video-player, .video-modal-player {
   animation: trans-fade 1000ms;
 }
 
@@ -120,9 +120,12 @@
   height: 120vh;
 }
 
+.specs-img-end {
+  background: center / contain no-repeat url(./assets/hero_stats_endframe__fphtv5z0kgmu_large.jpg);
+}
+
 .specs-img {
   position: absolute;
-  background: center no-repeat url(./assets/hero_stats_endframe__fphtv5z0kgmu_large.jpg);
   background-size: 1400px 700px;
   height: 100%;
   width: 100%;
