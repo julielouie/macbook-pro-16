@@ -7,7 +7,7 @@ function ImageSequence({ progress }, ref) {
 
   if (images[index][1] !== undefined) {
     return images.map((item, i) => {
-      const display = i !== index ? 'none' : 'd-none d-md-block';
+      const display = i !== index ? 'none' : 'd-none d-sm-none d-md-block';
       return (
         <span className={`hero-img m-auto ${display}`} ref={ref} key={i}
           style={{

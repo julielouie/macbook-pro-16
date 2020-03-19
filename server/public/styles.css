@@ -203,7 +203,7 @@
 
 
 /* media queries */
-@media (max-width: 1366px) and (max-height: 1024px) {
+/* @media (max-width: 1366px) and (max-height: 1024px) {
 .hero {
     height: 70vh;
   }
@@ -283,14 +283,6 @@
 
   .retina-img-2 {
     top: 135px;
-    background-size: 640px 415px;
-    height: 100vh;
-  }
-}
-
-@media (max-width: 1280px) and (max-height: 599px) {
-  .retina-img-2 {
-    top: 95px;
     background-size: 640px 415px;
     height: 100vh;
   }
@@ -494,13 +486,40 @@
   }
 }
 
+@media (max-width: 1280px) and (max-height: 599px) {
+  .specs-img {
+    height: 115%;
+    background-size: 1300px 675px;
+  }
+
+  .retina-img-2 {
+    top: 95px;
+    background-size: 640px 415px;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 736px) and (max-height: 414px) {
+  .retina-img-2 {
+    top: 128px;
+  }
+}
+
 @media (max-width: 415px) {
   .hero {
     height: 60vh;
   }
 
+  .hero-img {
+    height: 130%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
   .tagline {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .hero-text {
@@ -577,6 +596,24 @@
 }
 
 @media (max-width: 411px) and (max-height: 823px) {
+  .specs {
+    height: 155vh;
+  }
+
+  .specs-contain {
+    flex-direction: column;
+  }
+
+  .specs-img {
+    position: static;
+    background-size: 400px 200px;
+    height: 20%;
+  }
+
+  .spec, .spec-details {
+    font-size: 1.5rem;
+  }
+
   .retina-img-2 {
     top: 150px;
     background-size: 300px 193px;
@@ -586,13 +623,6 @@
 @media (max-width: 411px) and (max-height: 731px) {
   .retina-img-2 {
     top: 128px;
-  }
-}
-
-@media (max-width: 375px) {
-  .retina-img-2 {
-    top: 160px;
-    background-size: 270px 175px;
   }
 }
 
@@ -611,6 +641,25 @@
 
   .retina-img-2 {
     top: 120px;
+  }
+}
+
+@media (max-width: 375px) {
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .tagline {
+    font-size: 2.2rem;
+  }
+
+  .retina-img-2 {
+    top: 160px;
+    background-size: 270px 175px;
+  }
+
+  .hero-img{
+    height: 140%;
   }
 }
 
@@ -655,6 +704,377 @@
     height: 70vh;
   }
 
+  .retina-img-2 {
+    top: 110px;
+    background-size: 225px 147px;
+  }
+} */
+
+@media (max-width: 1366px) and (max-height: 1024px) {
+.hero {
+    height: 70vh;
+  }
+  .tagline {
+    font-size: 7rem;
+  }
+  .summary {
+    padding-top: 100px;
+    height: 60vh;
+  }
+  .specs {
+    height: 90vh;
+  }
+  .specs-img {
+    background-size: 1300px 680px;
+    height: 70%;
+  }
+  .retina-img-1-extend {
+    height: 25vh;
+  }
+  .retina-img-1 {
+    height: 1065px;
+    background-size: 1600px 1065px;
+  }
+  .retina-quote {
+    top: 100px;
+    left: 160px;
+  }
+  .retina-img-case {
+    height: 60vh;
+  }
+  .retina-img-2 {
+    top: 120px;
+    background-size: 685px 440px;
+  }
+}
+
+@media (max-width: 1280px) and (max-height: 689px) {
+  .hero {
+    height: 90vh;
+  }
+  .tagline {
+    font-size: 6.8rem;
+  }
+  .summary {
+    padding-top: 100px;
+    height: 100vh;
+  }
+
+  .specs {
+        height: 120vh;
+  }
+
+  .specs-img {
+        height: 100%;
+    background-size: 1300px 610px;
+  }
+
+  .retina-img-1-extend {
+    height: 30vh;
+  }
+
+  .retina-img-case {
+    height: 90vh;
+  }
+
+  .retina-img-2 {
+        top: 135px;
+    background-size: 640px 415px;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1280px) and (max-height: 599px) {
+  .retina-img-2 {
+    top: 95px;
+    background-size: 640px 415px;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 1366px) {
+  .hero {
+    height: 60vh;
+  }
+  .tagline {
+    font-size: 5.2rem;
+  }
+  .summary {
+    padding-top: 0;
+    height: 35vh;
+  }
+  .summary-description {
+    font-size: 2rem;
+  }
+  .specs {
+    height: 85vh;
+  }
+  .specs-img {
+    position: static;
+    background-size: 870px 385px;
+    height: 35%;
+  }
+  .retina-quote-initial {
+    font-size: 3rem;
+  }
+  .retina-img-1-extend {
+    height: 20vh;
+  }
+  .retina-img-1 {
+    width: 100%;
+    height: 670px;
+    background-size: 1000px 670px;
+  }
+  .retina-img-case {
+    height: 50vh;
+  }
+  .retina-img-2 {
+    height: 100%;
+    top: 215px;
+    background-size: 500px 325px;
+  }
+}
+@media (max-width: 1024px) and (max-height: 768px) {
+  .hero {
+    height: 90vh;
+  }
+  .tagline {
+    font-size: 6.8rem;
+  }
+  .summary {
+    padding-top: 0;
+    height: 40vh;
+  }
+  .summary-description{
+    font-size: 1.9rem;
+  }
+  .specs {
+    height: 170vh;
+  }
+  .specs-img {
+    position: static;
+    background-size: 930px 425px;
+    height: 45%;
+  }
+  .retina-quote-initial {
+    font-size: 2rem;
+  }
+  .retina-quote {
+    left: 110px;
+  }
+  .retina-img-case {
+    height: 70vh;
+    left: 0;
+  }
+ .retina-img-2 {
+    height: 100%;
+    top: 140px;
+    background-size: 505px 330px;
+  }
+}
+@media (max-width: 825px) {
+  .hero {
+    height: 150vh;
+  }
+  .tagline {
+    font-size: 5.2rem;
+  }
+  .summary {
+    padding-top: 0;
+    height: 90vh;
+  }
+  .summary-description{
+    font-size: 1.6rem;
+  }
+  .specs {
+    height: 330vh;
+  }
+  .specs-img {
+    position: static;
+    background-size: 870px 385px;
+    height: 35%;
+  }
+  .retina, .retina > p {
+    font-size: 3rem;
+  }
+  .retina-quote-initial {
+    font-size: 2rem;
+  }
+  .retina-quote {
+    left: 120px;
+  }
+  .retina-img-1-extend {
+    height: 40vh;
+  }
+  .retina-img-1 {
+    width: 100%;
+    height: 670px;
+    background-size: 1000px 670px;
+  }
+  .retina-img-case {
+    height: 150vh;
+  }
+  .retina-img-2 {
+    top: 160px;
+    background-size: 500px 320px;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+  .tagline {
+    font-size: 5.2rem;
+  }
+  .summary {
+    padding-top: 0;
+    height: 30vh;
+  }
+  .specs {
+    height: 120vh;
+  }
+  .retina-quote-initial {
+    font-size: 2.5rem;
+  }
+  .retina-img-1-extend {
+    height: 25vh;
+  }
+  .retina-img-case {
+    height: 50vh;
+  }
+  .retina-img-2 {
+    height: 100%;
+    top: 140px;
+    background-size: 475px 300px;
+  }
+}
+@media (max-width: 415px) {
+  .hero {
+    height: 60vh;
+  }
+  .tagline {
+    font-size: 3rem;
+  }
+  .hero-text {
+    left: 0;
+  }
+  .summary {
+    height: 50vh;
+    padding-top: 0;
+  }
+  .summary-description {
+    font-size: 1.45rem;
+  }
+  .video {
+    font-size: 1.2rem;
+  }
+  .specs {
+    height: 155vh;
+  }
+  .specs-contain {
+    flex-direction: column;
+  }
+  .specs-img {
+    position: static;
+    background-size: 400px 200px;
+    height: 20%;
+  }
+  .spec, .spec-details {
+    font-size: 1.5rem;
+  }
+  .retina, .retina > p {
+    font-size: 2.6rem;
+  }
+  .retina-img-1-extend {
+    height: 40vh;
+  }
+  .retina-img-1 {
+    background-size: 730px 470px;
+    height: 60vh;
+  }
+  .retina-quote {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+  }
+  .retina-quote-initial, .retina-quote-1, .retina-quote-2 {
+    font-size: 2.5rem;
+  }
+  .retina-quote-2 {
+    font-size: 1.2rem;
+  }
+  .retina-img-case {
+    height: 50vh;
+    left: 0;
+  }
+  .retina-img-2 {
+    top: 130px;
+    background-size: 300px 193px;
+  }
+}
+@media (max-width: 411px) and (max-height: 823px) {
+  .retina-img-2 {
+    top: 150px;
+    background-size: 300px 193px;
+  }
+}
+@media (max-width: 411px) and (max-height: 731px) {
+  .retina-img-2 {
+    top: 128px;
+  }
+}
+@media (max-width: 375px) {
+  .retina-img-2 {
+    top: 160px;
+    background-size: 270px 175px;
+  }
+}
+@media (max-width: 375px) and (max-height: 667px) {
+  .summary {
+    height: 60vh;
+  }
+  .specs {
+    height: 185vh;
+  }
+  .retina-quote {
+    top: 120px;
+  }
+  .retina-img-2 {
+    top: 120px;
+  }
+}
+@media (max-width: 360px) {
+  .specs {
+    height: 190vh;
+  }
+  .retina-quote {
+    top: 100px;
+  }
+  .retina-img-2 {
+    top: 120px;
+    background-size: 260px 165px;
+  }
+}
+@media (max-width: 320px) {
+  .hero {
+    height: 70vh;
+  }
+  .summary {
+    height: 80vh;
+  }
+  .specs {
+    height: 220vh;
+  }
+  .retina-quote {
+    top: 95px;
+  }
+  .retina-quote-initial {
+    font-size: 2rem;
+  }
+  .retina-img-1 {
+    background-size: 680px 400px;
+    height: 70vh;
+  }
   .retina-img-2 {
     top: 110px;
     background-size: 225px 147px;
