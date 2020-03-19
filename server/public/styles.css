@@ -120,10 +120,6 @@
   height: 120vh;
 }
 
-.specs-img-start {
-  background: center / contain no-repeat url(./assets/hero_stats_startframe__z6k1osk6imq6_large.jpg);
-}
-
 .specs-img-end {
   background: center / contain no-repeat url(./assets/hero_stats_endframe__fphtv5z0kgmu_large.jpg);
 }
