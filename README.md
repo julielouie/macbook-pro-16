@@ -10,7 +10,6 @@ Cloning challenge to practice recreating Apple's MacBook Pro 16-inch landing pag
 - HTML5
 - CSS3
 - Webpack 4
-- AWS EC2
 
 ## Clone Template
 ![MacBook Pro 16-inch](server/public/public_assets/demo.gif)
