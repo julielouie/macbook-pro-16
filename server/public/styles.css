@@ -580,6 +580,42 @@
   }
 }
 
+@media (max-width: 568px) {
+  .tagline {
+    font-size: 2.5rem;
+  }
+
+  .summary {
+    height: 125vh;
+  }
+
+  .specs {
+    height: 348vh;
+  }
+
+  .specs-img {
+    height: 35%;
+  }
+
+  .retina-quote {
+    top: 75px;
+    left: 60px;
+  }
+
+  .retina-quote-initial {
+    font-size: 2rem;
+  }
+
+  .retina-quote-2 {
+    font-size: 1rem;
+  }
+
+  .retina-img-2 {
+    top: 60px;
+    background-size: 340px 218px;
+  }
+}
+
 @media (max-width: 415px) {
   .hero {
     height: 60vh;
