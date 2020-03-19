@@ -8,7 +8,7 @@ function AnimatedText({ progress }, ref) {
   return (
     <div
       ref={ref}
-      className="hero-text position-absolute pt-5 w-100 d-flex flex-column text-center d-none d-sm-none d-md-block"
+      className="hero-text position-absolute pt-5 w-100 d-flex flex-column text-center"
       style={{
         transform: `translate3d(0, ${matrix}px, 0)`,
         opacity: opacity
