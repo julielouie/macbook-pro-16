@@ -1,9 +1,21 @@
 import React from 'react';
 
 function Specs(props) {
+  const visibilityStart = window.innerWidth > 768 ? <div className="specs-img-start"></div> : null;
+  const visibilityVid = window.innerWidth > 768
+    ? <video width="100%" height="100%" autoPlay>
+      <source src="./assets/media/large.mp4" type="video/mp4" />
+    </video>
+    : null;
   return (
     <div className="specs m-auto pt-5">
-      <div className="specs-img"></div>
+      <div className="specs-img">
+        {visibilityStart}
+        <span>
+          {visibilityVid}
+        </span>
+        <div className="specs-img-end"></div>
+      </div>
       <div className="col-12 col-md-10 col-lg-8 m-auto pt-5 h-100">
         <div className="specs-contain d-flex">
           <div className="left px-0 col-12 col-md-4">
