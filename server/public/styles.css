@@ -18,6 +18,12 @@
   font-family: SF-Pro-Display-Regular;
 }
 
+.video-modal {
+  height: 100vh;
+  width: 100vw;
+  z-index: 99999;
+}
+
 .header {
   background: rgba(255, 255, 255, 0.836);
   border-bottom: 1px solid rgba(128, 128, 128, 0.301);
@@ -48,6 +54,16 @@
 
 .link:hover {
   color: #0071e3;
+}
+
+.close-modal {
+  color: gray;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.close-modal:hover {
+  opacity: 1;
 }
 
 .hero {
@@ -87,10 +103,6 @@
 .video {
   font-size: 1.4rem;
   font-weight: bold;
-}
-
-.play {
-  width: 30px;
 }
 
 .specs {
