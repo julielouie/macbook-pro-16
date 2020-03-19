@@ -11,7 +11,10 @@ function FilmSummary(props) {
         a new Magic Keyboard, and massive storage,
         it’s the ultimate pro notebook for the ultimate user.
       </h2>
-      <h5 className="video">Watch the film <img src="./public_assets/play-button.svg" alt="Play Button" className="play" />
+      <h5 className="video link"
+        onClick={() => props.toggleModal()}>
+        Watch the film
+        <i className="link far fa-play-circle ml-2"></i>
       </h5>
     </div>
   );

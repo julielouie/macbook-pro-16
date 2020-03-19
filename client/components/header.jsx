@@ -32,7 +32,7 @@ class Header extends React.Component {
             aria-expanded={this.state.isOpen}
             aria-label="Toggle navigation"
             onClick={this.toggleNav}>
-            <div className="chevron"></div>
+            <i className="fas fa-chevron-down"></i>
           </button>
           <div className={`collapse navbar-collapse ${show} py-2 justify-content-end`} id="defaultNav">
             <ul className="navbar-nav">
