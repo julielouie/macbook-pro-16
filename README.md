@@ -35,9 +35,12 @@ Cloning challenge to practice recreating Apple's MacBook Pro 16-inch landing pag
     npm install
     ```
 
-3. Add provided `assets` directory to `/server/public`.
+3. Directory containing `assets` can be obtained at the following link:
+https://drive.google.com/open?id=1jEEkKWskyyxseSNh3PP6_XAFHCv3154Z
 
-4. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
+4. Add provided `assets` directory to `/server/public`.
+
+5. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
 
     ```shell
     npm run dev
