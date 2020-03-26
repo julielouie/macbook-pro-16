@@ -3,6 +3,16 @@ import { Controller, Scene } from 'react-scrollmagic';
 import AnimatedTextSpecs from './animations/animated-text-specs';
 
 function Specs(props) {
+
+  const specDetails = [
+    ['16-inch Retina display', 'for an immersive viewing experience.'],
+    ['Up to 8TB SSD storage', '— the highest capacity in any notebook.'],
+    ['AMD Radeon Pro 5000M series graphics', 'for fast rendering and seamless playback.'],
+    ['Up to 8-core processor', 'to power through intensive workloads.'],
+    ['Up to 64GB of memory', 'for editing large files and smooth multitasking.'],
+    ['Six-speaker sound system and studio-quality mics', 'for dramatic sound and superclean recordings.']
+  ];
+
   const ref = useRef();
   return (
     <div className="specs m-auto pt-5">
@@ -19,40 +29,65 @@ function Specs(props) {
           <div className="left px-0 col-12 col-md-4">
             <div className="spec-details text-muted">
               <Controller>
-                <Scene duration="80%" triggerHook="onEnter">
+                <Scene duration="60%" triggerHook="onEnter">
                   {progress => (
-                    <AnimatedTextSpecs ref={ref} progress={progress} />
+                    <AnimatedTextSpecs ref={ref} progress={progress} specText={specDetails[0]} />
                   )}
                 </Scene>
               </Controller>
               <hr />
             </div>
             <div className="spec-details text-muted">
-              <span className="spec">Up to 8TB SSD storage</span>
-              <span className="break">— the highest capacity in any notebook.</span>
+              <Controller>
+                <Scene duration="60%" triggerHook="onEnter">
+                  {progress => (
+                    <AnimatedTextSpecs ref={ref} progress={progress} specText={specDetails[1]} />
+                  )}
+                </Scene>
+              </Controller>
               <hr />
             </div>
             <div className="spec-details text-muted">
-              <span className="spec">AMD Radeon Pro 5000M series graphics</span>
-              <span className="break">for fast rendering and seamless playback.</span>
+              <Controller>
+                <Scene duration="60%" triggerHook="onEnter">
+                  {progress => (
+                    <AnimatedTextSpecs ref={ref} progress={progress} specText={specDetails[2]} />
+                  )}
+                </Scene>
+              </Controller>
               <hr className="d-block d-sm-block d-md-none" />
             </div>
           </div>
           <div className="center px-0 col-12 col-md-4"></div>
           <div className="right px-0 col-12 col-md-4">
             <div className="spec-details text-muted">
-              <span className="spec">Up to 8-core processor</span>
-              <span className="break">to power through intensive workloads.</span>
+              <Controller>
+                <Scene duration="60%" triggerHook="onEnter">
+                  {progress => (
+                    <AnimatedTextSpecs ref={ref} progress={progress} specText={specDetails[3]} />
+                  )}
+                </Scene>
+              </Controller>
               <hr />
             </div>
             <div className="spec-details text-muted">
-              <span className="spec">Up to 64GB of memory</span>
-              <span className="break">for editing large files and smooth multitasking.</span>
+              <Controller>
+                <Scene duration="60%" triggerHook="onEnter">
+                  {progress => (
+                    <AnimatedTextSpecs ref={ref} progress={progress} specText={specDetails[4]} />
+                  )}
+                </Scene>
+              </Controller>
               <hr />
             </div>
             <div className="spec-details text-muted">
-              <span className="spec">Six-speaker sound system and studio-quality mics</span>
-              <span className="break">for dramatic sound and superclean recordings.</span>
+              <Controller>
+                <Scene duration="60%" triggerHook="onEnter">
+                  {progress => (
+                    <AnimatedTextSpecs ref={ref} progress={progress} specText={specDetails[5]} />
+                  )}
+                </Scene>
+              </Controller>
             </div>
           </div>
         </div>
