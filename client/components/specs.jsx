@@ -19,7 +19,7 @@ function Specs(props) {
           <div className="left px-0 col-12 col-md-4">
             <div className="spec-details text-muted">
               <Controller>
-                <Scene duration="200%" triggerHook="onEnter">
+                <Scene duration="80%" triggerHook="onEnter">
                   {progress => (
                     <AnimatedTextSpecs ref={ref} progress={progress} />
                   )}
