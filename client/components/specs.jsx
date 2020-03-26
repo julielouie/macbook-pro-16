@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { Controller, Scene } from 'react-scrollmagic';
+import AnimatedTextSpecs from './animations/animated-text-specs';
 
 function Specs(props) {
+  const ref = useRef();
   return (
     <div className="specs m-auto pt-5">
       <div className="specs-img">
@@ -15,8 +18,13 @@ function Specs(props) {
         <div className="specs-contain d-flex">
           <div className="left px-0 col-12 col-md-4">
             <div className="spec-details text-muted">
-              <span className="spec">16-inch Retina display</span>
-              <span className="break">for an immersive viewing experience.</span>
+              <Controller>
+                <Scene duration="200%" triggerHook="onEnter">
+                  {progress => (
+                    <AnimatedTextSpecs ref={ref} progress={progress} />
+                  )}
+                </Scene>
+              </Controller>
               <hr />
             </div>
             <div className="spec-details text-muted">
