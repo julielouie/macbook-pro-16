@@ -132,10 +132,15 @@
   z-index: -1;
 }
 
+.specs-img-end {
+  height: 100%;
+  width: 100%;
+}
+
 .spec, .spec-details {
   font-family: SF-Pro-Display-Regular;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .spec {
@@ -150,7 +155,7 @@
 
 .retina, .retina > p {
   font-family: SF-Pro-Display-Bold;
-  font-size: 4.8rem;
+  font-size: 3.85rem;
 }
 
 .retina-img-content {

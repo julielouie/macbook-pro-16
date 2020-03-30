@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Controller, Scene } from 'react-scrollmagic';
+import AnimatedVideo from './animations/animated-video';
 import AnimatedTextSpecs from './animations/animated-text-specs';
 
 function Specs(props) {
@@ -17,12 +18,13 @@ function Specs(props) {
   return (
     <div className="specs m-auto pt-5">
       <div className="specs-img">
-        <span>
-          <video width="100%" height="100%" autoPlay>
-            <source src="./assets/media/large.mp4" type="video/mp4" />
-          </video>
-        </span>
-        <div className="specs-img-end"></div>
+        <Controller>
+          <Scene duration="10%" triggerHook="onEnter" >
+            {progress => (
+              <AnimatedVideo ref={ref} progress={progress} />
+            )}
+          </Scene>
+        </Controller>
       </div>
       <div className="col-12 col-md-10 col-lg-8 m-auto pt-5 h-100">
         <div className="specs-contain d-flex">
@@ -35,7 +37,6 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr />
             </div>
             <div className="spec-details text-muted">
               <Controller>
@@ -45,7 +46,6 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr />
             </div>
             <div className="spec-details text-muted">
               <Controller>
@@ -55,7 +55,6 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr className="d-block d-sm-block d-md-none" />
             </div>
           </div>
           <div className="center px-0 col-12 col-md-4"></div>
@@ -68,7 +67,6 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr />
             </div>
             <div className="spec-details text-muted">
               <Controller>
@@ -78,7 +76,6 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr />
             </div>
             <div className="spec-details text-muted">
               <Controller>
