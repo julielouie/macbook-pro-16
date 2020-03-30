@@ -5,8 +5,10 @@ function AnimatedVideo({ progress }, ref) {
   // const matrix = progress === 1 ? 0 : 40 - (progress * 40);
   // const opacity = progress === 1 ? 1 : expedite - 1;
 
-  if (progress === 1) {
-    document.querySelector('#specVid').play();
+  if (window.innerWidth > 767) {
+    if (progress === 1) {
+      document.querySelector('#specVid').play();
+    }
   }
 
   const display = window.innerWidth > 767
