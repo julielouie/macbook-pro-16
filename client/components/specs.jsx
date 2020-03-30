@@ -35,7 +35,7 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr />
+              {/* <hr /> */}
             </div>
             <div className="spec-details text-muted">
               <Controller>
@@ -45,7 +45,7 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr />
+              {/* <hr /> */}
             </div>
             <div className="spec-details text-muted">
               <Controller>
@@ -55,7 +55,7 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr className="d-block d-sm-block d-md-none" />
+              {/* <hr className="d-block d-sm-block d-md-none" /> */}
             </div>
           </div>
           <div className="center px-0 col-12 col-md-4"></div>
@@ -68,7 +68,7 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr />
+              {/* <hr /> */}
             </div>
             <div className="spec-details text-muted">
               <Controller>
@@ -78,7 +78,7 @@ function Specs(props) {
                   )}
                 </Scene>
               </Controller>
-              <hr />
+              {/* <hr /> */}
             </div>
             <div className="spec-details text-muted">
               <Controller>
