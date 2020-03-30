@@ -5,8 +5,8 @@ function RetinaHeadline(props) {
     <div className="position-relative pt-5">
       <div className="col-12 col-md-10 col-lg-8 m-auto">
         <h1 className="retina m-auto">
-          <p className="text-muted m-auto">Retina Display</p>
-            A big, beautiful workspace.
+          <p className="text-muted">Retina Display</p>
+          <p>A big, beautiful workspace.</p>
           <p>For doing big, beautiful work.</p>
         </h1>
       </div>

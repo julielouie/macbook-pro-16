@@ -19,9 +19,9 @@ function Specs(props) {
     <div className="specs m-auto pt-5">
       <div className="specs-img">
         <Controller>
-          <Scene duration="60%" triggerHook="onEnter">
+          <Scene duration="60%" triggerHook="onEnter" triggerElement=".specs-img" pin>
             {progress => (
-              <AnimatedVideo ref={ref} profress={progress} />
+              <AnimatedVideo ref={ref} progress={progress} />
             )}
           </Scene>
         </Controller>
