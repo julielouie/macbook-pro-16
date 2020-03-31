@@ -209,20 +209,26 @@
   font-size: 1.1rem;
 }
 
+.retina-img-2-cont {
+  height: 100vh;
+  width: 100vw;
+}
+
 .retina-img-case {
   position: relative;
   background: center / contain no-repeat url(./assets/display_hero_hw__d73ne9vbdmgm_large.jpg);
-  height: 100vh;
+  background-size: 100% 90%;
+  height: 100%;
   width: 100%;
 }
 
 .retina-img-2 {
   position: absolute;
-  top: 170px;
+  top: 9%;
   left: 0;
   background: top no-repeat url(./assets/display_hero_screen__eik3891ojtoy_large.jpg);
-  background-size: 640px 415px;
-  height: 100vh;
+  background-size: 78% 75%;
+  height: 100%;
   width: 100%;
 }
 
@@ -271,13 +277,12 @@
     left: 160px;
   }
 
-  .retina-img-case {
+  .retina-img-2-cont {
     height: 60vh;
   }
 
-  .retina-img-2 {
-    top: 120px;
-    background-size: 685px 440px;
+  .retina-img-case {
+    background-size: 100% 90%;
   }
 }
 
@@ -308,14 +313,8 @@
     height: 30vh;
   }
 
-  .retina-img-case {
+  .retina-img-2-cont {
     height: 90vh;
-  }
-
-  .retina-img-2 {
-    top: 135px;
-    background-size: 640px 415px;
-    height: 100vh;
   }
 }
 
@@ -361,14 +360,17 @@
     background-size: 1000px 670px;
   }
 
+  .retina-img-2-cont {
+    height: 40vh;
+  }
+
   .retina-img-case {
-    height: 50vh;
+    background-size: 100% 80%;
   }
 
   .retina-img-2 {
-    height: 100%;
-    top: 215px;
-    background-size: 500px 325px;
+    top: 13%;
+    background-size: 78% 68%;
   }
 }
 
@@ -408,15 +410,8 @@
     left: 110px;
   }
 
-  .retina-img-case {
+  .retina-img-2-cont {
     height: 70vh;
-    left: 0;
-  }
-
- .retina-img-2 {
-    height: 100%;
-    top: 140px;
-    background-size: 505px 330px;
   }
 }
 
@@ -461,7 +456,7 @@
   }
 
   .retina-quote {
-    left: 120px;
+    left: 75px;
   }
 
   .retina-img-1-extend {
@@ -474,13 +469,8 @@
     background-size: 1000px 670px;
   }
 
-  .retina-img-case {
-    height: 150vh;
-  }
-
-  .retina-img-2 {
-    top: 160px;
-    background-size: 500px 320px;
+  .retina-img-2-cont {
+    height: 130vh;
   }
 }
 
@@ -510,14 +500,8 @@
     height: 25vh;
   }
 
-  .retina-img-case {
+  .retina-img-2-cont {
     height: 50vh;
-  }
-
-  .retina-img-2 {
-    height: 100%;
-    top: 140px;
-    background-size: 475px 300px;
   }
 }
 
@@ -525,12 +509,6 @@
   .specs-img {
     height: 115%;
     background-size: 1300px 675px;
-  }
-
-  .retina-img-2 {
-    top: 95px;
-    background-size: 640px 415px;
-    height: 100vh;
   }
 }
 
@@ -543,20 +521,12 @@
     height: 35%;
     background-size: 800px 360px;
   }
-  .retina-img-2 {
-    top: 180px;
-    background-size: 515px 330px;
-  }
 }
 
 @media (max-width: 812px) and (max-height: 375px) {
   .specs-img {
     height: 40%;
     background-size: 895px 400px;
-  }
-  .retina-img-2 {
-    top: 155px;
-    background-size: 505px 325px;
   }
 }
 
@@ -592,14 +562,8 @@
     height: 30%;
   }
 
-  .retina-img-case {
-    height: 80vh;
-    left: 0;
-  }
-
-  .retina-img-2 {
-    top: 65px;
-    background-size: 440px 280px;
+  .retina-img-2-cont {
+    height: 110vh;
   }
 }
 
@@ -619,11 +583,6 @@
   .retina-quote {
     left: 55px;
   }
-
-  .retina-img-2 {
-    top: 60px;
-    background-size: 400px 257px;
-  }
 }
 
 @media (max-width: 640px) and (max-height: 360px) {
@@ -633,11 +592,6 @@
 
   .retina-quote {
     top: 80px;
-  }
-
-  .retina-img-2 {
-    top: 60px;
-    background-size: 385px 245px;
   }
 }
 
@@ -669,11 +623,6 @@
 
   .retina-quote-2 {
     font-size: 1rem;
-  }
-
-  .retina-img-2 {
-    top: 60px;
-    background-size: 340px 218px;
   }
 }
 
@@ -756,14 +705,8 @@
     font-size: 1.2rem;
   }
 
-  .retina-img-case {
-    height: 50vh;
-    left: 0;
-  }
-
-  .retina-img-2 {
-    top: 130px;
-    background-size: 300px 193px;
+  .retina-img-2-cont {
+    height: 40vh;
   }
 }
 
@@ -785,17 +728,12 @@
   .spec, .spec-details {
     font-size: 1.5rem;
   }
-
-  .retina-img-2 {
-    top: 150px;
-    background-size: 300px 193px;
-  }
 }
 
 @media (max-width: 411px) and (max-height: 731px) {
-  .retina-img-2 {
+  /* .retina-img-2 {
     top: 128px;
-  }
+  } */
 }
 
 @media (max-width: 375px) {
@@ -805,11 +743,6 @@
 
   .tagline {
     font-size: 2.2rem;
-  }
-
-  .retina-img-2 {
-    top: 157px;
-    background-size: 270px 175px;
   }
 
   .hero-img{
@@ -830,10 +763,6 @@
   .retina-quote {
     top: 120px;
   }
-
-  .retina-img-2 {
-    top: 120px;
-  }
 }
 
 @media (max-width: 360px) and (max-height: 640px) {
@@ -847,11 +776,6 @@
 
   .retina-quote {
     top: 100px;
-  }
-
-  .retina-img-2 {
-    top: 120px;
-    background-size: 260px 165px;
   }
 }
 
@@ -879,10 +803,5 @@
   .retina-img-1 {
     background-size: 680px 400px;
     height: 70vh;
-  }
-
-  .retina-img-2 {
-    top: 110px;
-    background-size: 225px 147px;
   }
 }

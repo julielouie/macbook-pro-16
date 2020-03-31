@@ -21,9 +21,10 @@ function RetinaHeadline(props) {
           </div>
         </div>
       </div>
-      <div className="col-12 col-md-10 col-lg-8 pt-5 m-auto position-relative">
-        <div className="retina-img-case pt-5"></div>
-        <div className="retina-img-2"></div>
+      <div className="retina-img-2-cont col-12 col-md-10 col-lg-8 m-auto pt-5">
+        <div className="retina-img-case">
+          <div className="retina-img-2"></div>
+        </div>
       </div>
     </div>
   );
