@@ -1,14 +1,14 @@
 import React, { useRef } from 'react';
 import { Controller, Scene } from 'react-scrollmagic';
 import AnimatedText from './animations/animated-text';
-import Sequence from './animations/index';
+import Sequence from './animations/image-sequence';
 
 function Hero(props) {
   const ref = useRef();
   return (
-    <div className="hero col-12 col-md-10 m-auto position-relative">
+    <div className="hero col-12 col-md-10 m-auto position-relative" id="pause">
       <Controller>
-        <Scene duration="10%" triggerHook="onEnter">
+        <Scene duration="30%" triggerElement="#pause" triggerHook="onLeave" reverse="true" pin="#pause" >
           {progress => (
             <>
               <AnimatedText ref={ref} progress={progress} />
