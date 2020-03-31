@@ -18,6 +18,7 @@ Cloning challenge to practice recreating Apple's MacBook Pro 16-inch landing pag
 
 #### System Requirements
 
+- Git Version Control System
 - Node.js 10 or higher
 - NPM 6 or higher
 
