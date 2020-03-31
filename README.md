@@ -24,7 +24,7 @@ Cloning challenge to practice recreating Apple's MacBook Pro 16-inch landing pag
 
 #### Getting Started
 
-1. Clone the repository.
+1. Clone and enter the repository.
 
     ```shell
     git clone https://github.com/juliehchung/macbook-pro-16.git
