@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 
 function AnimatedVideo({ progress }, ref) {
   const display = window.innerWidth > 767
-    ? <video ref={ref} width="100%" height="100%" id="specVid">
+    ? <video ref={ref} width="100%" height="100%" id="specVid" muted="muted">
       <source src="./assets/media/large.mp4" type="video/mp4" />
     </video>
     : <div className="specs-img-end" style={{
