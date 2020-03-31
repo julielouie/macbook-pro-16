@@ -6,9 +6,9 @@ import Sequence from './animations/image-sequence';
 function Hero(props) {
   const ref = useRef();
   return (
-    <div className="hero col-12 col-md-10 m-auto position-relative" id="pause">
+    <div className="hero col-12 col-md-10 m-auto position-relative">
       <Controller>
-        <Scene duration="30%" triggerElement="#pause" triggerHook="onLeave" reverse="true" pin="#pause" >
+        <Scene duration="30%" triggerHook="onEnter">
           {progress => (
             <>
               <AnimatedText ref={ref} progress={progress} />
