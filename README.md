@@ -38,7 +38,9 @@ Cloning challenge to practice recreating Apple's MacBook Pro 16-inch landing pag
 3. Directory containing `assets` can be obtained at the following link:
 https://drive.google.com/open?id=1jEEkKWskyyxseSNh3PP6_XAFHCv3154Z
 
-4. Add provided `assets` directory to `/server/public`.
+4. Add provided `assets` to `/public`. Make sure the filepath correctly reads `/server/public/assets` like the image below:
+![MacBook Pro 16-inch Assets](server/public/public_assets/assets_placement.png)
+    - Note: There is an `index.js` file located in `sequence-images`, and this should **NOT** be left out!
 
 5. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
 
