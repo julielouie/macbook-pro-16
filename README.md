@@ -51,4 +51,4 @@ Cloning challenge to practice recreating Apple's MacBook Pro 16-inch landing pag
     npm run dev
     ```
 
-6. Once started you can view the application by opening http://localhost:3000 in your browser.
+6. Once started, you can view the application by opening http://localhost:3000 in your browser.
